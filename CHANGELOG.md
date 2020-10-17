@@ -1,5 +1,26 @@
 # Lotus changelog
 
+# 1.0.0 / 2020-10-17
+
+Yay, it's 1.0.0! This is an optional release of Lotus that can be used to connect to the Filecoin mainnet. It introduces some UX improvements to the 0.10 series of Lotus.
+
+## Changes
+
+- Increase code coverage! (https://github.com/filecoin-project/lotus/pull/4410)
+- mpool: Don't block node startup loading messages (https://github.com/filecoin-project/lotus/pull/4411)
+- improve the UX of multisig approves (https://github.com/filecoin-project/lotus/pull/4398)
+- Use build.BlockDelaySecs for deal start buffer (https://github.com/filecoin-project/lotus/pull/4415)
+- conformance: support multiple protocol versions (https://github.com/filecoin-project/lotus/pull/4393)
+- Ensure msig inspect cli works with lotus-lite (https://github.com/filecoin-project/lotus/pull/4421)
+- add command to (slowly) prune lotus chain datastore (https://github.com/filecoin-project/lotus/pull/3876)
+- add WalletVerify to lotus-gateway (https://github.com/filecoin-project/lotus/pull/4373)
+- Improve StateMsg APIs (https://github.com/filecoin-project/lotus/pull/4429)
+- add endpoints needed by spacegap (https://github.com/filecoin-project/lotus/pull/4426)
+- Make audit balances capable of printing robust addresses (https://github.com/filecoin-project/lotus/pull/4423)
+- Custom filters for retrieval deals (https://github.com/filecoin-project/lotus/pull/4424)
+- fix message list api (https://github.com/filecoin-project/lotus/pull/4422)
+- replace bootstrap peers (https://github.com/filecoin-project/lotus/pull/4447)
+
 # 0.10.2 / 2020-10-14
 
 This is an optional release of Lotus that updates markets to 0.9.1, which fixes an issue affecting deals that were mid-transfer when the node was upgraded to 0.9.0. This release also includes some tweaks to default gas values and minor performance improvements.
